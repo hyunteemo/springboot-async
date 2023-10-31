@@ -1,0 +1,11 @@
+server:
+  port: 3333
+  servlet.context-path: /springboot-async
+
+spring:
+  datasource:
+    hikari.maximumPoolSize: 500
+  h2:
+    console.enabled: true
+    path: /h2-console
+
